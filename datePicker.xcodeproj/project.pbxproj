@@ -17,6 +17,7 @@
 		319FC85A1BE4758500D640FF /* UITextField+inputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC8591BE4758500D640FF /* UITextField+inputView.m */; };
 		319FC85D1BE481A700D640FF /* DatePickerInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC85C1BE481A700D640FF /* DatePickerInputViewController.m */; };
 		319FC8601BE4851C00D640FF /* firstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC85F1BE4851C00D640FF /* firstResponder.m */; };
+		319FC8621BE4893D00D640FF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 319FC8611BE4893D00D640FF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		319FC85C1BE481A700D640FF /* DatePickerInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerInputViewController.m; sourceTree = "<group>"; };
 		319FC85E1BE4851C00D640FF /* firstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstResponder.h; sourceTree = "<group>"; };
 		319FC85F1BE4851C00D640FF /* firstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstResponder.m; sourceTree = "<group>"; };
+		319FC8611BE4893D00D640FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		311E7F611BD9F25A0041EFB5 = {
 			isa = PBXGroup;
 			children = (
+				319FC8611BE4893D00D640FF /* README.md */,
 				311E7F6C1BD9F25A0041EFB5 /* datePicker */,
 				311E7F6B1BD9F25A0041EFB5 /* Products */,
 			);
@@ -175,6 +178,7 @@
 				319FC85A1BE4758500D640FF /* UITextField+inputView.m in Sources */,
 				311E7F6F1BD9F25A0041EFB5 /* main.m in Sources */,
 				319FC8601BE4851C00D640FF /* firstResponder.m in Sources */,
+				319FC8621BE4893D00D640FF /* README.md in Sources */,
 				319FC85D1BE481A700D640FF /* DatePickerInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

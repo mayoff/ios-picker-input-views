@@ -13,6 +13,10 @@
 		311E7F781BD9F25A0041EFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311E7F761BD9F25A0041EFB5 /* Main.storyboard */; };
 		311E7F7A1BD9F25A0041EFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E7F791BD9F25A0041EFB5 /* Assets.xcassets */; };
 		311E7F7D1BD9F25A0041EFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311E7F7B1BD9F25A0041EFB5 /* LaunchScreen.storyboard */; };
+		319FC8541BE46F7300D640FF /* ArrayPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC8531BE46F7300D640FF /* ArrayPickerController.m */; };
+		319FC85A1BE4758500D640FF /* UITextField+inputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC8591BE4758500D640FF /* UITextField+inputView.m */; };
+		319FC85D1BE481A700D640FF /* DatePickerInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC85C1BE481A700D640FF /* DatePickerInputViewController.m */; };
+		319FC8601BE4851C00D640FF /* firstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC85F1BE4851C00D640FF /* firstResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		311E7F791BD9F25A0041EFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311E7F7C1BD9F25A0041EFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311E7F7E1BD9F25A0041EFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319FC8521BE46F7300D640FF /* ArrayPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayPickerController.h; sourceTree = "<group>"; };
+		319FC8531BE46F7300D640FF /* ArrayPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayPickerController.m; sourceTree = "<group>"; };
+		319FC8581BE4758500D640FF /* UITextField+inputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+inputView.h"; sourceTree = "<group>"; };
+		319FC8591BE4758500D640FF /* UITextField+inputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+inputView.m"; sourceTree = "<group>"; };
+		319FC85B1BE481A700D640FF /* DatePickerInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerInputViewController.h; sourceTree = "<group>"; };
+		319FC85C1BE481A700D640FF /* DatePickerInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerInputViewController.m; sourceTree = "<group>"; };
+		319FC85E1BE4851C00D640FF /* firstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstResponder.h; sourceTree = "<group>"; };
+		319FC85F1BE4851C00D640FF /* firstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstResponder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,18 @@
 			isa = PBXGroup;
 			children = (
 				311E7F701BD9F25A0041EFB5 /* AppDelegate.h */,
+				319FC85E1BE4851C00D640FF /* firstResponder.h */,
+				319FC85F1BE4851C00D640FF /* firstResponder.m */,
 				311E7F711BD9F25A0041EFB5 /* AppDelegate.m */,
 				311E7F731BD9F25A0041EFB5 /* ViewController.h */,
 				311E7F741BD9F25A0041EFB5 /* ViewController.m */,
+				319FC8581BE4758500D640FF /* UITextField+inputView.h */,
+				319FC8591BE4758500D640FF /* UITextField+inputView.m */,
+				319FC8521BE46F7300D640FF /* ArrayPickerController.h */,
+				319FC8531BE46F7300D640FF /* ArrayPickerController.m */,
 				311E7F761BD9F25A0041EFB5 /* Main.storyboard */,
+				319FC85B1BE481A700D640FF /* DatePickerInputViewController.h */,
+				319FC85C1BE481A700D640FF /* DatePickerInputViewController.m */,
 				311E7F791BD9F25A0041EFB5 /* Assets.xcassets */,
 				311E7F7B1BD9F25A0041EFB5 /* LaunchScreen.storyboard */,
 				311E7F7E1BD9F25A0041EFB5 /* Info.plist */,
@@ -151,7 +171,11 @@
 			files = (
 				311E7F751BD9F25A0041EFB5 /* ViewController.m in Sources */,
 				311E7F721BD9F25A0041EFB5 /* AppDelegate.m in Sources */,
+				319FC8541BE46F7300D640FF /* ArrayPickerController.m in Sources */,
+				319FC85A1BE4758500D640FF /* UITextField+inputView.m in Sources */,
 				311E7F6F1BD9F25A0041EFB5 /* main.m in Sources */,
+				319FC8601BE4851C00D640FF /* firstResponder.m in Sources */,
+				319FC85D1BE481A700D640FF /* DatePickerInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +322,7 @@
 				311E7F831BD9F25A0041EFB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
